@@ -1,1 +1,1 @@
-# dlc
+# Greenville Learning Collective
