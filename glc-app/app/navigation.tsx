@@ -2,7 +2,7 @@ import Image from 'next/image';
 import logo from '@/public/logo.svg';
 export default function Navigation() {
   return (
-    <nav className='flex flex-row p-8 justify-between items-center'>
+    <nav className='flex flex-row p-8 justify-between items-center fixed w-full z-10'>
       <div className="logo-wrapper max-w-36">
         <Image
           src={logo}
