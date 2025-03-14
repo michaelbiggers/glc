@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'grain': "url('/noise.png')"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
