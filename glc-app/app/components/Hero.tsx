@@ -1,5 +1,3 @@
-import Image from "next/image";
-import group from "@/public/group.jpg";
 export default function Hero() {
   /**
    * props: height, bg url, bg position, bg opacity
