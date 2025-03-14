@@ -1,0 +1,31 @@
+.team__item {
+  position:relative;
+  background-size:cover;
+  background-position: center;
+}
+.team__item:hover .team__item_overlay {
+  opacity:.8;
+}
+.team__item_container {
+  display:flex;
+  flex-direction: row;
+  align-items: flex-end;
+  z-index: 10;
+  position: relative;
+  width:100%;
+}
+.team__item_overlay {
+  opacity:0;
+  transition:opacity 300ms;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.team__item_title {
+color:white;
+padding:12px;
+width:100%;
+padding:18px 12px;
+}
