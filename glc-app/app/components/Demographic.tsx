@@ -6,9 +6,9 @@ const Demographic = () => {
           <img className="object-cover h-full w-full" src="/demo_1.jpg" alt="" />
         </div>
         <div className="demographic__text-container md:basis-2/3">
-          <h4 className="uppercase font-bold mb-2">How We Can Help</h4>
+          <h4 className="uppercase font-bold mb-2 mt-8">How We Can Help</h4>
           <p className="text-2xl mb-8">We specialize in evaluating and treating a variety of disorders, including the following:</p>
-          <div className="columns-2 ">
+          <div className="lg:columns-2 ">
             <ul className="text-xl">
               <li>ADD/ADHD</li>
               <li>Anxiety</li>
