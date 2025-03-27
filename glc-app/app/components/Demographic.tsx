@@ -1,11 +1,11 @@
 const Demographic = () => {
   return (
-    <div className="demographic py-36 px-24 ">
+    <div className="demographic py-24 lg:py-36  lg:px-24 ">
       <div className="flex flex-wrap md:flex-nowrap">
-      <div className="demographic__img-container md:order-1 md:basis-1/3 overflow-hidden rounded-2xl">
+      <div className="demographic__img-container md:order-1 md:basis-1/3 overflow-hidden md:rounded-2xl">
           <img className="object-cover h-full w-full" src="/demo_1.jpg" alt="" />
         </div>
-        <div className="demographic__text-container md:basis-2/3">
+        <div className="demographic__text-container px-12 md:basis-2/3">
           <h4 className="uppercase font-bold mb-2 mt-8">How We Can Help</h4>
           <p className="text-2xl mb-8">We specialize in evaluating and treating a variety of disorders, including the following:</p>
           <div className="lg:columns-2 ">

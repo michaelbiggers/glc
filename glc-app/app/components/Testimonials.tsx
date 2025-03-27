@@ -6,7 +6,7 @@ import styles from './Testimonials.module.css'
 import { Pagination } from 'swiper/modules';
 const Testimonials = () => {
   return (
-    <div className="testimonials py-36 px-48 bg-[#f2ae21] rounded-[48px] bg-grain bg-blend-overlay">
+    <div className="testimonials py-12 lg:py-36 px-12 lg:px-48 bg-[#f2ae21] rounded-[48px] bg-grain bg-blend-overlay">
       <div className="testimonials__text-container ">
         <Swiper
           spaceBetween={50}
