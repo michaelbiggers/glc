@@ -12,8 +12,8 @@ export default function Home() {
       <Callout text="We believe that true growth happens through meaningful connections, creating a strong network of support. By embracing independence, our clients gain the confidence to evolve, explore new opportunities, and discover their full potential. Most importantly, we celebrate joy in every moment—both the small victories and the life-changing milestones—because a fulfilling life is built on both." />
       <TeamSection />
       <Demographic />
-      <Faqs />
       <Testimonials />
+      <Faqs />
       {/* <div className="icon-bar flex max-w-screen w-9/12 justify-center items-center m-auto -mt-12 bg-white absolute center gap-12 p-12 left-1/2 -translate-x-1/2">
         <div className="flex flex-col justify-center items-center">
           <i>icon</i>
