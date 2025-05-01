@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import { Navigation } from "./components/navigation";
+import { Navigation } from "./components/navigation/navigation";
 import Hero from "./components/Hero";
 import Callout from "./components/Callout";
 import TeamSection from "./components/TeamSection";
