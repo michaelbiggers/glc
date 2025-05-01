@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image';
+import Link from 'next/link';
 import logo from '@/public/logo.svg';
 import bird_mark from '@/public/bird-logo.svg';
 import menu from '@/public/menu.png';
@@ -46,8 +47,8 @@ export const Navigation = () => {
               text="Who We're For"
               url="/who-we-are-for" />
             <NavigationItem
-              text="Resources"
-              url="/resources" />
+              text="Meet Our Team"
+              url="/team" />
             <NavigationItem
               text="Pricing"
               url="/pricing" />
@@ -65,10 +66,12 @@ export const Navigation = () => {
       </Drawer>
       <nav className='flex flex-row px-16 py-4 justify-between items-center w-full z-10 bg-[#fffaf6]'>
         <div className="logo-wrapper max-w-36">
-          <Image
-            src={logo}
-            alt='Greenville Learning Collective'
-          />
+          <Link href="/">
+            <Image
+              src={logo}
+              alt='Greenville Learning Collective'
+            />
+          </Link>
         </div>
         {/* trigger menu */}
         <div className="action-wrapper">
