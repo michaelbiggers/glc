@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image';
 import logo from '@/public/logo.svg';
+import bird_mark from '@/public/bird-logo.svg';
 import { useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
@@ -17,13 +18,19 @@ export const Navigation = () => {
         open={isOpen}
         onClose={toggleDrawer}
         direction='right'
-        className='w-[33%]'
-        size='auto'
+        className="w-full sm:max-w-lg lg:max-w-sm"
+        size='350px'
+        lockBackgroundScroll
       >
-        <Image
-          src={logo}
-          alt='Greenville Learning Collective'
-        />
+        <header className="flex justify-between border-b px-10 py-4 sm:px-5 sm:py-4">
+          <Image
+            src={bird_mark}
+            alt='Greenville Learning Collective'
+            className = "w-12"
+          />
+          <button onClick={() => { setIsOpen(!isOpen) }}>Close</button>
+        </header>
+
         <div className="h-full px-10 py-12 sm:px-5 sm:py-12">
           <div className="w-full h-full flex justify-center items-center" style={{ transform: "translateX(0%) translateZ(0px)" }}>
             <div className="flex flex-col h-full w-full">
