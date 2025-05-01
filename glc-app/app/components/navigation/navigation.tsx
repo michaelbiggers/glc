@@ -2,6 +2,8 @@
 import Image from 'next/image';
 import logo from '@/public/logo.svg';
 import bird_mark from '@/public/bird-logo.svg';
+import menu from '@/public/menu.png';
+import close from '@/public/close.png';
 import { useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
@@ -29,7 +31,13 @@ export const Navigation = () => {
             alt='Greenville Learning Collective'
             className="w-12"
           />
-          <button onClick={() => { setIsOpen(!isOpen) }}>Close</button>
+          <button onClick={() => { setIsOpen(!isOpen) }}>
+          <Image
+            src={close}
+            alt='Close menu'
+            className="w-4"
+          />
+          </button>
         </div>
         {/* nav items */}
         <div className="flex flex-col gap-8 flex-1 sm:gap-6">
@@ -69,7 +77,12 @@ export const Navigation = () => {
         </div>
         {/* trigger menu */}
         <div className="action-wrapper">
-          <button onClick={() => { setIsOpen(!isOpen) }}>Menu</button>
+          <button onClick={() => { setIsOpen(!isOpen) }}>
+            <Image
+              src={menu}
+              alt='Open Menu'
+              className = 'w-8'
+            /></button>
         </div>
       </nav>
     </>
