@@ -1,3 +1,4 @@
+import { Button } from "./Button";
 export default function Hero() {
   /**
    * props: height, bg url, bg position, bg opacity
@@ -12,7 +13,9 @@ export default function Hero() {
           <div className="hero__text-container p-12">
             <h1 className="text-3xl md:text-5xl pb-8">Personalized support. <br />Meaningful progress.</h1>
             <p className="mb-6 text-lg">At GLC, we help you or your loved one overcome communication and learning challenges with confidence through personalized care and tailored treatment plans.</p>
-            <a href="" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Who we work with</a>
+            <Button
+              text="Who We Work With"
+              color="orange" />
           </div>
         </div>
       </div>
