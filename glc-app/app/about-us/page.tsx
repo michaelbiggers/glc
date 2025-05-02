@@ -6,6 +6,7 @@ import sunny from "@/public/sunny.jpg";
 import jacie from "@/public/jacie.jpg";
 import Image from "next/image";
 import HeroSplit from "../components/Hero/HeroSplit";
+import { TextBlob } from "../components/TextBlob";
 
 export default function Team() {
   return (
@@ -52,7 +53,15 @@ export default function Team() {
         </div>
 
       </div>
-
+      <TextBlob
+        color="green"
+        fullWidth = {false}>
+        <div className="w-sm">
+          <h3 className="text-xl text-center font-bold mb-2 text-white uppercase">Our Mission</h3>
+          <p className="text-4xl font-normal text-center text-white mb-4">At GLC, we believe every journey is unique and worth celebrating.</p>
+          <p className="text-xl font-normal text-center text-white">Our mission is to build strong connections, nurture confidence and independence, and create space for joy in every moment — walking hand in hand with our clients and their families every step of the way.</p>
+        </div>
+      </TextBlob>
     </>
 
   );
