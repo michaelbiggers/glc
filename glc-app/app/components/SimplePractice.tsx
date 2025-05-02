@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { Button } from './Button';
 type ScheduleProps = {
   text: string;
   classNames?: string;

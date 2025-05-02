@@ -1,3 +1,4 @@
+'use client'
 import { AppointmentButton } from "@/app/components/SimplePractice";
 import { Navigation } from "../../components/navigation/navigation";
 
