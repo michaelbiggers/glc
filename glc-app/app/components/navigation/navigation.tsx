@@ -8,7 +8,8 @@ import close from '@/public/close.png';
 import { NavigationItem } from './navigationItem';
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
-import 'react-modern-drawer/dist/index.css'
+import 'react-modern-drawer/dist/index.css';
+import { AppointmentButton } from '../SimplePractice';
 const Drawer = dynamic(() => import('react-modern-drawer'), { ssr: false });
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false); // <-- moved inside!
@@ -55,12 +56,12 @@ export const Navigation = () => {
           </div>
           {/* nav footer */}
           <div className="flex">
-            <a href="/sign-up/" target="_self" className="w-full no-underline border basis-1/2" >
-              Request an Appointment
-            </a>
-            <a href="https://secure.simplepractice.com/users/sign_in" target="_self" className="border basis-1/2" >
+            <AppointmentButton 
+            text="Request Appointment"
+            classNames='border basis-1/2' />
+            <Link href="http://greenvillelearningcollective.clientsecure.me/sign-in" target="_self" className="border basis-1/2" >
               Sign in
-            </a>
+            </Link>
           </div>
         </div>
       </Drawer>
