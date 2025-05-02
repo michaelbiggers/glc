@@ -26,7 +26,7 @@ export default function HeroBackground({
   }[position];
   return (
     <div
-      className={`hero relative min-h-[80vh] flex items-center bg-[#faf5e8] ${positionClass}`}
+      className={`hero relative flex items-center bg-[#faf5e8] ${positionClass}`}
       style={{
         backgroundImage: `url('${backgroundUrl}')`,
         backgroundSize,

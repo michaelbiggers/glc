@@ -1,27 +1,31 @@
 import { Navigation } from "../components/navigation/navigation";
-import Hero from "../components/Hero/Hero";
 import { Button } from "../components/Button";
 import group from "@/public/group_bw_wide-2.jpg"
 import Image from "next/image";
+import HeroSplit from "../components/Hero/HeroSplit";
 
 export default function Team() {
   return (
     <>
       <Navigation></Navigation>
-      <Hero
+      <HeroSplit
         backgroundImage={group}
         backgroundPosition='bottom left'
         backgroundSize='cover'
         position="end"
       >
-        <h1 className="text-3xl md:text-5xl pb-8">Personalized support. <br />Meaningful progress.</h1>
-        <p className="mb-6 text-lg">At GLC, we help you or your loved one overcome communication and learning challenges with confidence through personalized care and tailored treatment plans.</p>
-        <Button
-          text="Who We Work With"
-          color="orange" />
+        <h1 className="text-3xl md:text-5xl pb-8">Rooted in Care. <br></br> Inspired by You.</h1>
+        <p className="mb-6 text-lg">At Greenville Learning Collective, we believe that meaningful change begins with connection. Our team is united by a passion for helping individuals of all ages navigate communication, learning, and developmental challenges with confidence and joy.</p>
 
-      </Hero>
-      <div className="flex">
+        <p className="mb-6 text-lg">We bring deep expertise, a personalized approach, and heartfelt dedication to every client we serve. Here, your journey is supported, your goals are championed, and your potential is celebrated every step of the way.</p>
+
+        <p className="mb-6 text-lg">Meet the people behind GLC — and discover the heart of what we do.</p>
+        <Button
+          text="Meet Sunny and Jacie"
+          color="orange"
+          href="#meet-sunny-and-jacie" />
+      </HeroSplit>
+      <div className="flex" id="meet-sunny-and-jacie">
         <Image
           src={group}
           alt="Sunny Biggers and Jacie Currie, the founding members of Greenville Learning Collective"
