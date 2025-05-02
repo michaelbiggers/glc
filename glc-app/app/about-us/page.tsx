@@ -1,5 +1,6 @@
 import { Navigation } from "../components/navigation/navigation";
 import Hero from "../components/Hero";
+import { Button } from "../components/Button";
 import group from "@/public/group_bw_wide-2.jpg"
 import Image from "next/image";
 
@@ -11,7 +12,15 @@ export default function Team() {
         backgroundImage={group}
         backgroundPosition='bottom left'
         backgroundSize='cover'
-      ></Hero>
+        position="end"
+      >
+        <h1 className="text-3xl md:text-5xl pb-8">Personalized support. <br />Meaningful progress.</h1>
+        <p className="mb-6 text-lg">At GLC, we help you or your loved one overcome communication and learning challenges with confidence through personalized care and tailored treatment plans.</p>
+        <Button
+          text="Who We Work With"
+          color="orange" />
+
+      </Hero>
       <div className="flex">
         <Image
           src={group}
