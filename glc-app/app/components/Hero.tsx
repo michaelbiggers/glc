@@ -1,13 +1,20 @@
+import { StaticImageData } from "next/image";
 import { Button } from "./Button";
-export default function Hero() {
-  /**
-   * props: height, bg url, bg position, bg opacity
-   */
-  const bg_styles = {
-
-  }
+type HeroProps = {
+  backgroundImage: string | StaticImageData;
+  backgroundPosition?: React.CSSProperties['backgroundPosition'];
+  backgroundSize?: string;
+};
+export default function Hero({ backgroundImage, backgroundPosition = "center center", backgroundSize = "cover" }: HeroProps) {
+  const backgroundUrl = typeof backgroundImage === 'string' ? backgroundImage : backgroundImage.src;
   return (
-    <div className="hero relative min-h-[80vh] flex justify-start items-center bg-[#faf5e8]" style={{ backgroundImage: "url('/hero.jpg')", backgroundSize: "cover", backgroundPosition: "center right" }}>
+    <div className="hero relative min-h-[80vh] flex justify-start items-center bg-[#faf5e8]"
+      style={
+        {
+          backgroundImage: `url('${backgroundUrl}')`,
+          backgroundSize: backgroundSize,
+          backgroundPosition: backgroundPosition
+        }}>
       <div className="hero__overlay bg-[#fffaf6] py-16 m-8 lg:m-36 rounded-2xl w-full lg:max-w-xl">
         <div className="flex justify-center items-center">
           <div className="hero__text-container p-12">

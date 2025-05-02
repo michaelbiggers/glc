@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={`z-1 relative`}>
       <Navigation  />
-      <Hero />
+      <Hero backgroundImage="/hero.jpg"/>
       <Callout text="We believe that true growth happens through meaningful connections, creating a strong network of support. By embracing independence, our clients gain the confidence to evolve, explore new opportunities, and discover their full potential. Most importantly, we celebrate joy in every moment—both the small victories and the life-changing milestones—because a fulfilling life is built on both." />
       <TeamSection />
       <Demographic />

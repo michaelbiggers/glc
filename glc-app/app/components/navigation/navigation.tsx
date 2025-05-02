@@ -47,8 +47,8 @@ export const Navigation = () => {
               text="Who We're For"
               url="/who-we-are-for" />
             <NavigationItem
-              text="Meet Our Team"
-              url="/team" />
+              text="About Us"
+              url="/about-us" />
             <NavigationItem
               text="Pricing"
               url="/pricing" />
