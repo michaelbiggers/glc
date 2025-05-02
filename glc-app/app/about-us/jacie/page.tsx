@@ -1,5 +1,6 @@
+'use client'
 import { Navigation } from "../../components/navigation/navigation";
-import { Button } from "@/app/components/Button";
+import { AppointmentButton } from "@/app/components/SimplePractice";
 
 import jacie from "@/public/jacie.jpg";
 import Image from "next/image";
@@ -21,10 +22,7 @@ export default function Jacie() {
           <p className="mb-2 text-lg">Jacie provides specialized support for a broad range of speech and language challenges, including developmental language delays, receptive and expressive language disorders, articulation and speech sound disorders, fluency, ADHD and executive functioning difficulties, literacy-related concerns, and autism. She is deeply committed to working with autistic individuals, helping them discover and develop their unique communication styles and reach their full potential.</p>
           <p className="mb-2 text-lg">Jacie also has extensive experience in augmentative and alternative communication (AAC), using tools such as American Sign Language, visual supports, and speech-generating devices to create accessible and empowering communication opportunities for everyone.</p>
           <p className="mb-4 text-lg">Through a compassionate, strengths-based approach, Jacie is dedicated to helping each person find their voice and supporting families on their journey toward greater connection and communication.</p>
-          <Button
-            text="Schedule a Consultation"
-            href="#"
-            classNames="w-fit "></Button>
+          <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
         </div>
       </div>
 

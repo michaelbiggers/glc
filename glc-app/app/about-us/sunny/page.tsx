@@ -1,4 +1,4 @@
-import { Button } from "@/app/components/Button";
+import { AppointmentButton } from "@/app/components/SimplePractice";
 import { Navigation } from "../../components/navigation/navigation";
 
 import sunny from "@/public/sunny.jpg";
@@ -18,10 +18,7 @@ export default function Sunny() {
         <div className="content basis-1/2 flex flex-col align-center p-4 md:p-24">
           <h1 className="text-3xl mb-4">Sunny Biggers, credentials</h1>
           <p className="mb-4">Sunny is a licensed psychoeducational specialist & Nationally Certified School Psychologist providing comprehensive evaluations and support.</p>
-          <Button
-            text="Schedule a Consultation"
-            href="#"
-            classNames="w-fit "></Button>
+          <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
         </div>
       </div>
 
