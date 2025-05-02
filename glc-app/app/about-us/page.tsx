@@ -1,6 +1,9 @@
 import { Navigation } from "../components/navigation/navigation";
 import { Button } from "../components/Button";
-import group from "@/public/group_bw_wide-2.jpg"
+import group from "@/public/group_bw.jpeg";
+import group_wide from "@/public/group_bw_wide-2.jpg";
+import sunny from "@/public/sunny.jpg";
+import jacie from "@/public/jacie.jpg";
 import Image from "next/image";
 import HeroSplit from "../components/Hero/HeroSplit";
 
@@ -9,11 +12,15 @@ export default function Team() {
     <>
       <Navigation></Navigation>
       <HeroSplit
-        backgroundImage={group}
+        backgroundImage={group_wide}
         backgroundPosition='bottom left'
         backgroundSize='cover'
         position="end"
       >
+        <Image
+          src={group}
+          alt="Sunny Biggers and Jacie Currie, cofounders of Greenville Learning Collective"
+          className="mb-8 lg:hidden rounded-2xl"></Image>
         <h1 className="text-3xl md:text-5xl pb-8">Rooted in Care. <br></br> Inspired by You.</h1>
         <p className="mb-6 text-lg">At Greenville Learning Collective, we believe that meaningful change begins with connection. Our team is united by a passion for helping individuals of all ages navigate communication, learning, and developmental challenges with confidence and joy.</p>
 
@@ -25,15 +32,25 @@ export default function Team() {
           color="orange"
           href="#meet-sunny-and-jacie" />
       </HeroSplit>
-      <div className="flex" id="meet-sunny-and-jacie">
-        <Image
-          src={group}
-          alt="Sunny Biggers and Jacie Currie, the founding members of Greenville Learning Collective"
-          className="h-auto w-96 basis-1/2 object-cover" />
-        <div className="flex flex-col text-left basis-1/2 p-12 bg-[#f2ae21]">
-          <h1 className="text-5xl mb-8">Our Philosophy</h1>
-          <p className="text-lg">We believe that true growth happens through meaningful connections, creating a strong network of support. By embracing independence, our clients gain the confidence to evolve, explore new opportunities, and discover their full potential. Most importantly, we celebrate joy in every moment—both the small victories and the life-changing milestones—because a fulfilling life is built on both.</p>
+      <div className="px-12 md:py-24 " id="meet-sunny-and-jacie">
+        <h2 className="text-3xl md:text-5xl pb-8 text-center font-bold mb-12">Greenville Learning Collective</h2>
+        <div className="flex flex-col md:flex-row justify-center gap-24">
+          <div className="text-center">
+            <div className="w-full h-[400px] md:w-[300px] md:h-[350px] lg:w-[400px] lg:h-[500px] rounded-2xl sm:rounded-[20%] overflow-hidden mb-4 mx-auto">
+              <Image src={sunny} alt="" className="object-cover w-full h-full"></Image>
+            </div>
+            <Button text="Meet Sunny" href="/about-us/sunny"></Button>
+          </div>
+          <div className="text-center">
+            <div className="w-full h-[400px] md:w-[300px] md:h-[350px] lg:w-[400px] lg:h-[500px] rounded-2xl sm:rounded-[20%] overflow-hidden mb-4 mx-auto">
+              <Image src={jacie} alt="" className="object-cover w-full h-full"></Image>
+            </div>
+
+            <Button text="Meet Jacie" href="/about-us/jacie"></Button>
+          </div>
+
         </div>
+
       </div>
 
     </>
