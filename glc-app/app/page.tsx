@@ -1,7 +1,7 @@
 'use client';
 import { Button } from "./components/Button";
 import { Navigation } from "./components/navigation/navigation";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero/Hero";
 import Callout from "./components/Callout";
 import TeamSection from "./components/TeamSection";
 import Demographic from "./components/Demographic";

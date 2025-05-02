@@ -1,5 +1,5 @@
 import { Navigation } from "../components/navigation/navigation";
-import Hero from "../components/Hero";
+import Hero from "../components/Hero/Hero";
 import { Button } from "../components/Button";
 import group from "@/public/group_bw_wide-2.jpg"
 import Image from "next/image";
