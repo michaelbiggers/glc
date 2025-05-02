@@ -2,8 +2,9 @@ import { useEffect } from 'react';
 type ScheduleProps = {
   text: string;
   classNames?: string;
+  wrapperClassNames?: string;
 };
-export const AppointmentButton = ({ text, classNames = '' }: ScheduleProps) => {
+export const AppointmentButton = ({ text, classNames = '', wrapperClassNames = '' }: ScheduleProps) => {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://widget-cdn.simplepractice.com/assets/integration-1.0.js';
@@ -16,7 +17,7 @@ export const AppointmentButton = ({ text, classNames = '' }: ScheduleProps) => {
   }, []);
 
   return (
-    <div>
+    <div className={wrapperClassNames}>
       <div className="spwidget-button-wrapper">
         <a
           href="https://greenvillelearningcollective.clientsecure.me"

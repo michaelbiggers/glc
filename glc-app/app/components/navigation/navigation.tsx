@@ -55,13 +55,15 @@ export const Navigation = () => {
               url="/pricing" />
           </div>
           {/* nav footer */}
-          <div className="flex">
-            <AppointmentButton 
-            text="Request Appointment"
-            classNames='border basis-1/2' />
-            <Link href="http://greenvillelearningcollective.clientsecure.me/sign-in" target="_self" className="border basis-1/2" >
+          <div className="flex flex-col">
+            <Link href="http://greenvillelearningcollective.clientsecure.me/sign-in" target="_self" className="border basis-1/2 p-2 py-8 text-center content-center font-bold" >
               Sign in
             </Link>
+            <AppointmentButton
+              text="Request Appointment"
+              wrapperClassNames='basis-1/2 text-center bg-[#d14d22] text-white font-bold'
+              classNames='inline-block p-8 h-full w-full ' />
+
           </div>
         </div>
       </Drawer>
