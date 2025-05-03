@@ -4,7 +4,7 @@
   background-position: center;
 }
 .team__item:hover .team__item_overlay {
-  opacity:.8;
+  opacity:.9;
 }
 .team__item_container {
   display:flex;

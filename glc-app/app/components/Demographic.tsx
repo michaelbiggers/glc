@@ -1,6 +1,6 @@
 const Demographic = () => {
   return (
-    <div className="demographic py-24 lg:py-36  lg:px-24 ">
+    <div className="demographic py-24 lg:py-24  lg:px-24 ">
       <div className="flex flex-wrap md:flex-nowrap">
       <div className="demographic__img-container md:order-1 md:basis-1/3 overflow-hidden md:rounded-2xl">
           <img className="object-cover h-full w-full" src="/demo_1.jpg" alt="" />
