@@ -45,8 +45,8 @@ export const Navigation = () => {
           {/* nav items */}
           <div className="flex flex-col gap-8 flex-1 sm:gap-6 pt-12 px-10 sm:px-5">
             <NavigationItem
-              text="Who We're For"
-              url="/who-we-are-for" />
+              text="Services"
+              url="/services" />
             <NavigationItem
               text="About Us"
               url="/about-us" />
