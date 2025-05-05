@@ -16,21 +16,24 @@ export default function Services() {
         <p className="mb-6 text-lg">At GLC, we’re here to help you or your child build strong communication skills, boost confidence, and find joy in every step of the journey. We offer personalized evaluations and therapy for a variety of speech, language, and learning needs.</p>
         <Button href="#" text="Learn More"></Button>
       </HeroSplit>
-      <div className="p-12 max-w-6xl m-auto bg-red-50">
-        <h2 className="text-2xl md:text-5xl mb-4 text-center max-w-2xl m-auto">Speech and Language Support That Grows With You</h2>
-        <p className="mb-6 text-lg md:text-center">No two journeys are exactly alike — and that’s why we tailor our approach to meet each person’s unique needs. Whether you’re seeking support for speech clarity, language development, social communication, or literacy skills, our team is here to walk alongside you with expert care and encouragement.</p>
+      <div className=" bg-white">
+        <div className="px-12 py-24 max-w-6xl m-auto">
+          <h2 className="text-2xl md:text-5xl mb-4 text-center max-w-2xl m-auto">Speech and Language Support That Grows With You</h2>
+          <p className="mb-6 text-lg md:text-center">No two journeys are exactly alike — and that’s why we tailor our approach to meet each person’s unique needs. Whether you’re seeking support for speech clarity, language development, social communication, or literacy skills, our team is here to walk alongside you with expert care and encouragement.</p>
 
+        </div>
       </div>
+
       <div className="flex flex-col md:flex-row p-12">
         <div className="md:basis-1/3">
           <TextBlob color="orange" classNames="text-white py-12 lg:py-12 px-12 lg:px-12 rounded-[24px]">
             <div className="bg-white w-[64] h-[64] rounded-full flex align-middle p-1 m-auto">
-              <Image src={bird} alt="" width={64}  height={64}></Image>
+              <Image src={bird} alt="" width={64} height={64}></Image>
             </div>
 
             <h2 className="text-2xl font-bold text-center">Did You Know?</h2>
-            <p className = "text-lg mb-2">Early support can make a big difference!</p>
-            <p className = "text-lg mb-2">Speech and language skills build the foundation for learning, friendships, and confidence. At GLC, we believe it’s never too early — or too late — to find the right support and celebrate growth at every step.</p>
+            <p className="text-lg mb-2">Early support can make a big difference!</p>
+            <p className="text-lg mb-2">Speech and language skills build the foundation for learning, friendships, and confidence. At GLC, we believe it’s never too early — or too late — to find the right support and celebrate growth at every step.</p>
           </TextBlob>
         </div>
         <div className="md:basis-2/3 px-12 pb-12">
