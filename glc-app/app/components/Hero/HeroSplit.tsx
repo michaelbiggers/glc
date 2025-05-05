@@ -4,7 +4,7 @@ import HeroBackground from "./HeroBackground";
 type HeroProps = {
   backgroundImage: string | StaticImageData;
   backgroundPosition?: React.CSSProperties['backgroundPosition'];
-  backgroundSize?: string;
+  backgroundSize?: React.CSSProperties['backgroundSize'];
   position?: 'start' | 'center' | 'end';
   children?: ReactNode;
 };
