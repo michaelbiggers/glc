@@ -22,7 +22,7 @@ export default function Team() {
           src={group}
           alt="Sunny Biggers and Jacie Currie, cofounders of Greenville Learning Collective"
           className="mb-8 lg:hidden rounded-2xl"></Image>
-        <h1 className="text-3xl md:text-5xl pb-8">Rooted in Care. <br></br> Inspired by You.</h1>
+        <h1 className="text-3xl md:text-5xl pb-8">Helping every voice be heard</h1>
         <p className="mb-6 text-lg">At Greenville Learning Collective, we believe that meaningful change begins with connection. Our team is united by a passion for helping individuals of all ages navigate communication, learning, and developmental challenges with confidence and joy.</p>
 
         <p className="mb-6 text-lg">We bring deep expertise, a personalized approach, and heartfelt dedication to every client we serve. Here, your journey is supported, your goals are championed, and your potential is celebrated every step of the way.</p>
@@ -56,10 +56,11 @@ export default function Team() {
       <TextBlob
         color="green"
         fullWidth = {false}>
-        <div className="w-sm">
-          <h3 className="text-xl text-center font-bold mb-2 text-white uppercase">Our Mission</h3>
-          <p className="text-4xl font-normal text-center text-white mb-4">At GLC, we believe every journey is unique and worth celebrating.</p>
-          <p className="text-xl font-normal text-center text-white">Our mission is to build strong connections, nurture confidence and independence, and create space for joy in every moment — walking hand in hand with our clients and their families every step of the way.</p>
+        <div className="w-sm text-center">
+          <h3 className="text-xl  font-bold mb-2 text-white uppercase">Our Mission</h3>
+          <p className="text-4xl font-normal  text-white mb-4">At GLC, we believe every journey is unique and worth celebrating.</p>
+          <p className="text-xl font-normal mb-6 text-white">Our mission is to build strong connections, nurture confidence and independence, and create space for joy in every moment — walking hand in hand with our clients and their families every step of the way.</p>
+          <Button text="View Our Services" href= "/services"></Button>
         </div>
       </TextBlob>
     </>
