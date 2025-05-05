@@ -3,8 +3,9 @@ type TextBlobProps = {
   color?: 'yellow' | 'orange' | 'green';
   fullWidth?: boolean;
   children?: ReactNode;
+  classNames?: string;
 };
-export const TextBlob = ({ color = 'yellow', fullWidth = true, children }: TextBlobProps) => {
+export const TextBlob = ({ color = 'yellow', fullWidth = true, children, classNames = ''}: TextBlobProps) => {
   const variants = {
     yellow: "bg-[#f2ae21]",
     orange: "bg-[#d14d22]",
@@ -12,7 +13,7 @@ export const TextBlob = ({ color = 'yellow', fullWidth = true, children }: TextB
   };
   const width = fullWidth ? 'w-full': 'w-[90vw] m-auto';
   return (
-    <div className={`py-12 lg:py-36 px-12 lg:px-48 rounded-[48px] ${variants[color]} ${width} `}>
+    <div className={`py-12 lg:py-36 px-12 lg:px-48 rounded-[48px] ${variants[color]} ${width} ${classNames}`}>
       <div className="">
         {children}
       </div>
