@@ -25,17 +25,7 @@ export default function Services() {
 
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row p-12 lg:flex-row-reverse max-w-7xl m-auto" id='areas-we-support'>
-        <div className="md:basis-1/3 mb-12">
-          <TextBlob color="orange" classNames="text-white py-12 lg:py-12 px-12 lg:px-12 rounded-[24px]">
-            <div className="bg-white w-[64] h-[64] rounded-full flex align-middle p-1 m-auto">
-              <Image src={bird} alt="" width={64} height={64}></Image>
-            </div>
-            <h2 className="text-2xl font-bold text-center">What to Expect</h2>
-            <p className="text-lg mb-2">Evaluations typically take between 45 and 90 minutes, depending on individual needs.</p>
-            <p className="text-lg mb-2">Therapy sessions are available in 30, 45, or 60-minute formats, customized to fit each client’s goals.</p>
-          </TextBlob>
-        </div>
+      <div className="flex flex-col lg:flex-row p-12 max-w-7xl m-auto" id='areas-we-support'>
         <div className="md:basis-2/3 px-12 pb-12">
           <h2 className="text-2xl md:text-4xl font-bold mb-1">Areas We Support</h2>
           <h3 className="text-xl md:text-3xl mb-2">Speech and Language Challenges:</h3>
@@ -59,6 +49,16 @@ export default function Services() {
             <li>Situational/Selective Mutism</li>
             <li>Cognitive differences</li>
           </ul>
+        </div>
+        <div className="md:basis-1/3 mb-12">
+          <TextBlob color="orange" classNames="text-white py-12 lg:py-8 px-12 lg:px-12 rounded-[24px]">
+            <div className="bg-white w-[64] h-[64] rounded-full flex align-middle p-1 m-auto">
+              <Image src={bird} alt="" width={64} height={64}></Image>
+            </div>
+            <h2 className="text-2xl font-bold text-center">What to Expect</h2>
+            <p className="text-lg mb-2">Evaluations typically take between 45 and 90 minutes, depending on individual needs.</p>
+            <p className="text-lg mb-2">Therapy sessions are available in 30, 45, or 60-minute formats, customized to fit each client’s goals.</p>
+          </TextBlob>
         </div>
       </div >
       <TextBlob color="green" fullWidth = {false}>
