@@ -1,12 +1,6 @@
-import styles from './TeamSection.module.css';
 import TeamCard from './TeamCard';
-import Link from 'next/link';
-import Image from 'next/image';
-import arrow from '@/public/right-arrow--white.png';
-interface TeamProps {
-  text?: string;
-}
-const TeamSection: React.FC<TeamProps> = ({ text }) => {
+
+const TeamSection = () => {
   return (
     <div className="team flex flex-wrap lg:flex-nowrap gap-12 lg:px-24 lg:py-24">
       {/* Team heading */}
