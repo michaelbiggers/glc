@@ -51,7 +51,7 @@ export default function Services() {
           </ul>
         </div>
         <div className="md:basis-1/3 mb-12">
-          <TextBlob color="orange" classNames="text-white py-12 lg:py-8 px-12 lg:px-12 rounded-[24px]">
+          <TextBlob color="orange" classNames="text-white rounded-[24px]" useLargePadding = {false}>
             <div className="bg-white w-[64] h-[64] rounded-full flex align-middle p-1 m-auto">
               <Image src={bird} alt="" width={64} height={64}></Image>
             </div>
@@ -61,7 +61,7 @@ export default function Services() {
           </TextBlob>
         </div>
       </div >
-      <TextBlob color="green" fullWidth = {false}>
+      <TextBlob color="green" fullWidth = {false} classNames = "mb-12">
         <div className="text-center text-white">
           <h3 className="text-3xl md:text-5xl font-bold mb-1">Let’s Get Started</h3>
           <p className="text-2xl md:text-3xl mb-4">We’re here to support you — every step of the way. <br></br>Reach out today!</p>
