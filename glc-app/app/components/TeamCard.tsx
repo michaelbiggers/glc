@@ -13,7 +13,7 @@ interface TeamCard {
 }
 const TeamCard = ({ name, title, href, photo, classNames = '', children }: TeamCard) => {
   return (
-    <div className={`${styles.team__item} ${classNames} h-[600] rounded-2xl overflow-hidden relative flex basis-full md:basis-1/2 lg:basis-1/3 mx-12 mx-auto lg:flex-1`} style={{ backgroundImage: `url(${photo})` }}>
+    <div className={`${styles.team__item} ${classNames} h-[600px] rounded-2xl overflow-hidden relative flex basis-full md:basis-1/2 lg:basis-1/3 mx-12 mx-auto lg:flex-1`} style={{ backgroundImage: `url(${photo})` }}>
       <Link href={href} className='w-full flex'>
         <div className={`${styles.team__item_overlay} bg-[#f2ae21] flex flex-col justify-center items-center`}>
           <div>
