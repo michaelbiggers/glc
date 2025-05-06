@@ -15,8 +15,7 @@ export default function HeroBackground({
   backgroundPosition = "center center",
   backgroundSize = "cover",
   children,
-  position = 'start',
-  className = "",
+  position = 'start'
 }: HeroBackgroundProps) {
   const backgroundUrl = typeof backgroundImage === "string" ? backgroundImage : backgroundImage.src;
   const positionClass = {

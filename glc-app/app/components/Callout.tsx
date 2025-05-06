@@ -4,10 +4,9 @@ import card from '@/public/credit-card.png';
 import consultation from '@/public/consultation.png';
 import { Button } from './Button';
 interface CalloutProps {
-  text?: string;
   id?: string
 }
-const Callout = ({ text, id = '' }: CalloutProps) => {
+const Callout = ({ id = '' }: CalloutProps) => {
   return (
     <div className="callout py-12 lg:py-24 px-12 md:px-12 lg:px-48" id={id}>
       <div className="callout__text-container text-center">

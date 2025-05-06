@@ -2,6 +2,7 @@
 import { TextBlob } from './TextBlob';
 import { Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper as SwiperType } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
@@ -13,7 +14,7 @@ const Testimonials = () => {
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper: any) => console.log(swiper)}
+        onSwiper={(swiper: SwiperType) => console.log(swiper)}
         autoplay={{
           delay: 3500,
           disableOnInteraction: true,
@@ -26,7 +27,7 @@ const Testimonials = () => {
         className="min-h-[300px]"
       >
         <SwiperSlide>
-          <blockquote className={styles.testimonial}>“My son's speech has flourished so much from working with Jacie! When a different provider kept dragging their feet in getting my son scheduled, GLC jumped right in. I have nothing but positive things to say about our experience with GLC.”</blockquote>
+          <blockquote className={styles.testimonial}>“My son&apos;s speech has flourished so much from working with Jacie! When a different provider kept dragging their feet in getting my son scheduled, GLC jumped right in. I have nothing but positive things to say about our experience with GLC.”</blockquote>
           <span className={styles.attribution}>- Emily, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>

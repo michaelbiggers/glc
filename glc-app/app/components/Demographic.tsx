@@ -1,12 +1,14 @@
+import Image from "next/image";
+import img from "@/public/demo_1.jpg"
 interface DemographicProps {
   id?: string
 }
-const Demographic = ({id = ''}:DemographicProps) => {
+const Demographic = ({ id = '' }: DemographicProps) => {
   return (
-    <div className="demographic py-24 lg:py-24  lg:px-24 " id = {id}>
+    <div className="demographic py-24 lg:py-24  lg:px-24 " id={id}>
       <div className="flex flex-wrap md:flex-nowrap">
-      <div className="demographic__img-container md:order-1 md:basis-1/3 overflow-hidden md:rounded-2xl">
-          <img className="object-cover h-full w-full" src="/demo_1.jpg" alt="" />
+        <div className="demographic__img-container md:order-1 md:basis-1/3 overflow-hidden md:rounded-2xl">
+          <Image src={img} className="object-cover h-full w-full" alt=""></Image>
         </div>
         <div className="demographic__text-container px-12 md:basis-2/3">
           <h4 className="uppercase font-bold mb-2 mt-8">How We Can Help</h4>
@@ -42,7 +44,7 @@ const Demographic = ({id = ''}:DemographicProps) => {
 
 
         </div>
-        
+
       </div>
 
 
