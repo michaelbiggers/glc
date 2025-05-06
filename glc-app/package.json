@@ -13,6 +13,7 @@
     "@heroui/drawer": "^2.2.13",
     "@heroui/system": "^2.4.12",
     "@heroui/theme": "^2.4.12",
+    "@netlify/plugin-nextjs": "^5.11.1",
     "framer-motion": "^12.6.3",
     "next": "15.1.3",
     "react": "^19.1.0",
