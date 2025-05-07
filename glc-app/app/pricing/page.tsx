@@ -1,7 +1,4 @@
 import { Navigation } from "../components/navigation/navigation";
-import Image from "next/image";
-import hero from "@/public/sign.jpg"
-import HeroSplit from "../components/Hero/HeroSplit";
 export default function Pricing() {
   return (
     <>
