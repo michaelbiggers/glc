@@ -1,3 +1,4 @@
+'use-client'
 import { Navigation } from "../components/navigation/navigation";
 import { Button } from "../components/Button";
 import group from "@/public/group_bw.jpeg";
@@ -7,6 +8,7 @@ import jacie from "@/public/jacie.jpg";
 import Image from "next/image";
 import HeroSplit from "../components/Hero/HeroSplit";
 import { TextBlob } from "../components/TextBlob";
+import { AppointmentButton } from "../components/SimplePractice";
 
 export default function Team() {
   return (
@@ -60,7 +62,8 @@ export default function Team() {
           <h3 className="text-xl  font-bold mb-2 text-white uppercase">Our Mission</h3>
           <p className="text-4xl font-normal  text-white mb-4">At GLC, we believe every journey is unique and worth celebrating.</p>
           <p className="text-xl font-normal mb-6 text-white">Our mission is to build strong connections, nurture confidence and independence, and create space for joy in every moment — walking hand in hand with our clients and their families every step of the way.</p>
-          <Button text="View Our Services" href= "/services"></Button>
+          <AppointmentButton text = "Schedule a Free Consultation" useButtonStyles></AppointmentButton>
+
         </div>
       </TextBlob>
     </>
