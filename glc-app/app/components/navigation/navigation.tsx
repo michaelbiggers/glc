@@ -22,7 +22,7 @@ export const Navigation = () => {
         open={isOpen}
         onClose={toggleDrawer}
         direction='right'
-        className="w-full sm:max-w-lg lg:max-w-sm"
+        className="w-full sm:max-w-lg lg:max-w-sm !h-[100svh]"
         size='350px'
         lockBackgroundScroll
       >
