@@ -5,7 +5,7 @@ const TeamSection = () => {
     <div className="team flex flex-wrap lg:flex-nowrap gap-12 lg:px-24 lg:py-24">
       {/* Team heading */}
       <div className="team__item  lg:order-1 h-xl lg:h-[600] bg-[#39747f] flex justify-center items-center lg:rounded-2xl basis-full lg:basis-1/3 flex-1 ">
-        <h2 className="text-7xl font-bold text-white p-12">Meet Our Team</h2>
+        <h2 className="text-4xl md:text-7xl font-bold text-white p-12">Meet Our Team</h2>
       </div>
       {/* Team member: Sunny */}
       <TeamCard

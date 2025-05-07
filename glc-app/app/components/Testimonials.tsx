@@ -27,15 +27,15 @@ const Testimonials = () => {
         className="min-h-[300px]"
       >
         <SwiperSlide>
-          <blockquote className={styles.testimonial}>“My son&apos;s speech has flourished so much from working with Jacie! When a different provider kept dragging their feet in getting my son scheduled, GLC jumped right in. I have nothing but positive things to say about our experience with GLC.”</blockquote>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“My son&apos;s speech has flourished so much from working with Jacie! When a different provider kept dragging their feet in getting my son scheduled, GLC jumped right in. I have nothing but positive things to say about our experience with GLC.”</blockquote>
           <span className={styles.attribution}>- Emily, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>
-          <blockquote className={styles.testimonial}>“Jacie is a phenomenal speech therapist! Our son absolutely loves his time there. Highly recommend Jacie and Greenville Collective Learning.”</blockquote>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“Jacie is a phenomenal speech therapist! Our son absolutely loves his time there. Highly recommend Jacie and Greenville Collective Learning.”</blockquote>
           <span className={styles.attribution}>- Amanda, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>
-          <blockquote className={styles.testimonial}>“Sunny was wonderful with our son. She made us feel comfortable during the evaluation, and she was kind and comforting at our follow-up when we were given a diagnosis. That was one of the hardest days of our lives, but I’ll never forget her compassion. ”</blockquote>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“Sunny was wonderful with our son. She made us feel comfortable during the evaluation, and she was kind and comforting at our follow-up when we were given a diagnosis. That was one of the hardest days of our lives, but I’ll never forget her compassion. ”</blockquote>
           <span className={styles.attribution}>- Bridget, Client Parent</span>
         </SwiperSlide>
         <style jsx>{`
