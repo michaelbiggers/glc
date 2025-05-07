@@ -1,13 +1,13 @@
 'use client';
-import { Navigation } from "../components/navigation/navigation";
-import HeroSplit from "../components/Hero/HeroSplit";
-import { Button } from "../components/Button";
-import { AppointmentButton } from "../components/SimplePractice";
+import { Navigation } from "@/app/components/navigation/navigation";
+import HeroSplit from "@/app/components/Hero/HeroSplit";
+import { Button } from "@/app/components/Button";
+import { AppointmentButton } from "@/app/components/SimplePractice";
 import bg from "@/public/demo_1.jpg";
 import bird from "@/public/bird-logo.svg";
-import { TextBlob } from "../components/TextBlob";
+import { TextBlob } from "@/app/components/TextBlob";
 import Image from "next/image";
-export default function Services() {
+export default function Speech() {
   return (
     <>
       <Navigation></Navigation>
@@ -52,7 +52,7 @@ export default function Services() {
         </div>
         <div className="md:basis-1/3 mb-12">
           <TextBlob color="orange" classNames="text-white rounded-[24px]" useLargePadding = {false}>
-            <div className="bg-white w-[64] h-[64] rounded-full flex align-middle p-1 m-auto">
+            <div className="bg-white w-[64px] h-[64px] rounded-full flex align-middle p-1 m-auto">
               <Image src={bird} alt="" width={64} height={64}></Image>
             </div>
             <h2 className="text-2xl font-bold text-center">What to Expect</h2>

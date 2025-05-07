@@ -48,8 +48,8 @@ export const Navigation = () => {
               text="Services"
               url="#"
               dropdownItems={[
-                { text: 'Speech-Language Therapy', url: '/services' },
-                { text: 'Educational Assessments', url: '/services' },
+                { text: 'Speech-Language Therapy', url: '/services/speech-language-therapy' },
+                { text: 'Educational Assessments', url: '/services/educational-assessments' },
               ]}
             />
             <NavigationItem

@@ -1,3 +1,4 @@
+'use client'
 import { useEffect } from 'react';
 type ScheduleProps = {
   text: string;

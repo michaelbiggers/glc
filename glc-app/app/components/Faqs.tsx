@@ -4,7 +4,7 @@ const Faqs = () => {
   return (
     <div className="faqs flex flex-wrap py-24 lg:py-36  lg:px-24" >
       <div className="faqs__col basis-full lg:basis-1/3 px-12 lg:px-0">
-        <h2 className="text-7xl">Frequently Asked Questions</h2>
+        <h2 className="text-4xl md:text-7xl">Frequently Asked Questions</h2>
       </div>
       <div className="faqs__col basis-full lg:basis-2/3">
         <Faq
