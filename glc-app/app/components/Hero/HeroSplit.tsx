@@ -6,6 +6,7 @@ type HeroProps = {
   backgroundPosition?: React.CSSProperties['backgroundPosition'];
   backgroundSize?: React.CSSProperties['backgroundSize'];
   position?: 'start' | 'center' | 'end';
+  classNames?: string;
   children?: ReactNode;
 };
 export default function HeroSplit({
@@ -13,10 +14,11 @@ export default function HeroSplit({
   backgroundPosition = "center center",
   backgroundSize = "cover",
   position = "start",
+  classNames = '',
   children }: HeroProps) {
   return (
-    <HeroBackground backgroundImage={backgroundImage} backgroundPosition={backgroundPosition} backgroundSize={backgroundSize} position={position}>
-      <div className="hero__overlay bg-[#fffaf6] py-16 h-full w-full lg:max-w-xl">
+    <HeroBackground backgroundImage={backgroundImage} backgroundPosition={backgroundPosition} backgroundSize={backgroundSize} position={position} className={classNames}>
+      <div className={`hero__overlay bg-[#fffaf6] py-16 h-full flex w-full lg:max-w-xl ${classNames}`}>
         <div className="flex justify-center items-center">
           <div className="hero__text-container p-12">
             {children}
