@@ -52,7 +52,7 @@ export default function Assessments() {
         </div>
         <div className="md:basis-1/3 mb-12">
           <TextBlob color="orange" classNames="text-white rounded-[24px]" useLargePadding={false}>
-            <div className="bg-white w-[64px] h-[64px] rounded-full flex align-middle p-1 m-auto">
+            <div className="bg-white w-[64px] h-[64px] rounded-full flex items-center p-1 m-auto">
               <Image src={bird} alt="" width={64} height={64}></Image>
             </div>
             <h2 className="text-2xl font-bold text-center">What to Expect</h2>

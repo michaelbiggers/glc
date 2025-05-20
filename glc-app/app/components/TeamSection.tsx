@@ -24,7 +24,7 @@ const TeamSection = () => {
       {/* Team member: Jacie */}
       <TeamCard
         href="/about-us/jacie"
-        name={{ first_name: "Jacie", last_name: "Currie" }}
+        name={{ first_name: "Jacie", last_name: "Curry" }}
         title="CCC-SLP"
         photo='/jacie.jpg'
         classNames='lg:order-2'

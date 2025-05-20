@@ -11,12 +11,12 @@ export default function Jacie() {
       <Navigation></Navigation>
       <div className="flex flex-col md:flex-row md:min-h-screen p-12">
         <div className="image h-[400px] md:h-full md:basis-1/3 p-2">
-          <Image src={jacie} alt="Jacie Currie"
+          <Image src={jacie} alt="Jacie Curry"
             className="object-cover object-[50%_33%] md:object-center h-full w-full rounded-2xl"></Image>
         </div>
 
         <div className="content md:basis-2/3 flex flex-col align-center p-4 md:p-8">
-          <h1 className="text-3xl mb-2">Jacie Currie</h1>
+          <h1 className="text-3xl mb-2">Jacie Curry</h1>
           <h2 className="text-xl font-bold mb-4">Co-Founder / Speech-Language Pathologist</h2>
           <p className="mb-2 text-lg">Jacie is one of the founders and co-owners of Greenville Learning Collective, where she brings over 15 years of experience working with children and families to foster meaningful connection through communication. As a licensed speech-language pathologist, Jacie holds national certification from the American Speech-Language-Hearing Association (ASHA) through the Certificate of Clinical Competence (CCC-SLP).</p>
           <p className="mb-2 text-lg">Jacie provides specialized support for a broad range of speech and language challenges, including developmental language delays, receptive and expressive language disorders, articulation and speech sound disorders, fluency, ADHD and executive functioning difficulties, literacy-related concerns, and autism. She is deeply committed to working with autistic individuals, helping them discover and develop their unique communication styles and reach their full potential.</p>
