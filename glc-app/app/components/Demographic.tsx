@@ -19,26 +19,16 @@ const Demographic = ({ id = '' }: DemographicProps) => {
               <li>Anxiety</li>
               <li>Articulation Disorders</li>
               <li>Autism Spectrum Disorder</li>
-              <li>Augmentative-Alternative Communication</li>
               <li>Childhood Apraxia of Speech</li>
-              <li>Developmental Disorders</li>
               <li>Developmental Language Delay</li>
               <li>Dysarthria</li>
               <li>Executive Functioning Disorders</li>
               <li>Fluency (stuttering/cluttering)</li>
-              <li>Individual/Group Speech Therapy</li>
               <li>Language Processing Disorders</li>
               <li>Learning Disabilities</li>
-              <li>Parent/Caregiver Coaching</li>
-              <li>Phonological Speech Disorders</li>
               <li>Phonological/Phonemic Awareness</li>
               <li>Pragmatic Language/Social Skills</li>
-              <li>Psychoeducational Evaluations</li>
-              <li>Screenings</li>
               <li>Situational Mutism</li>
-              <li>Speech-Language Evaluations</li>
-              <li>Traumatic Brain Injury</li>
-              <li>Tutoring</li>
             </ul>
           </div>
 

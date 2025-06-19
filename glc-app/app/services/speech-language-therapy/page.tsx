@@ -28,30 +28,19 @@ export default function Speech() {
       <div className="flex flex-col lg:flex-row p-12 max-w-7xl m-auto" id='areas-we-support'>
         <div className="md:basis-2/3 px-12 pb-12">
           <h2 className="text-2xl md:text-4xl font-bold mb-1">Areas We Support</h2>
-          <h3 className="text-xl md:text-3xl mb-2">Speech and Language Challenges:</h3>
           <ul className="list-disc ps-8 mb-8">
             <li>Developmental language delays</li>
             <li>Speech sound, articulation, and phonological disorders</li>
-            <li>Motor speech challenges, including Childhood Apraxia of Speech (CAS)</li>
             <li>Expressive and receptive language disorders</li>
-            <li>Language- and literacy-based learning differences</li>
-            <li>Phonemic awareness, spelling, reading, and writing support</li>
             <li>Fluency challenges (stuttering and cluttering)</li>
-            <li>Voice therapy</li>
             <li>Social communication skills</li>
             <li>Alternative and augmentative communication (AAC)</li>
-          </ul>
-          <h3 className="text-xl md:text-3xl mb-2">Communication Difficulties Related to Medical or Developmental Conditions:</h3>
-          <ul className="list-disc ps-8">
-            <li>ADHD</li>
-            <li>Autism Spectrum Disorder</li>
-            <li>Traumatic Brain Injury (TBI)</li>
-            <li>Situational/Selective Mutism</li>
-            <li>Cognitive differences</li>
+            <li>Dyslexia</li>
+            <li>Dysgraphia</li>
           </ul>
         </div>
         <div className="md:basis-1/3 mb-12">
-          <TextBlob color="orange" classNames="text-white rounded-[24px]" useLargePadding = {false}>
+          <TextBlob color="orange" classNames="text-white rounded-[24px]" useLargePadding={false}>
             <div className="bg-white w-[64px] h-[64px] rounded-full flex items-center p-1 m-auto">
               <Image src={bird} alt="" width={64} height={64}></Image>
             </div>
@@ -61,7 +50,7 @@ export default function Speech() {
           </TextBlob>
         </div>
       </div >
-      <TextBlob color="green" fullWidth = {false} classNames = "mb-12">
+      <TextBlob color="green" fullWidth={false} classNames="mb-12">
         <div className="text-center text-white">
           <h3 className="text-3xl md:text-5xl font-bold mb-1">Let’s Get Started</h3>
           <p className="text-2xl md:text-3xl mb-4">We’re here to support you — every step of the way. <br></br>Reach out today!</p>

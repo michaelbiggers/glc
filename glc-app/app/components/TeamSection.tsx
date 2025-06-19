@@ -17,7 +17,7 @@ const TeamSection = () => {
       >
         <ul className='mb-4 ml-8 list-disc text-white'>
           <li>Autism spectrum disorder</li>
-          <li>Dyslexia and discalcula</li>
+          <li>Dyslexia, Dysgraphia, & Dyscalculia</li>
           <li>Learning assessments</li>
         </ul>
       </TeamCard>
@@ -25,7 +25,7 @@ const TeamSection = () => {
       <TeamCard
         href="/about-us/jacie"
         name={{ first_name: "Jacie", last_name: "Curry" }}
-        title="CCC-SLP"
+        title="Speech-Language Pathologist"
         photo='/jacie.jpg'
         classNames='lg:order-2'
       >

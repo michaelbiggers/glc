@@ -17,7 +17,7 @@ export default function Sunny() {
         </div>
 
         <div className="content md:basis-2/3 flex flex-col align-center p-4 md:p-8">
-          <h1 className="text-3xl mb-4">Sunny Biggers</h1>
+          <h1 className="text-3xl mb-4">Sunny Biggers <span className = "text-lg">(she/her)</span></h1>
           <h2 className="text-xl font-bold mb-4">Co-Founder / Psychoeducational Specialist</h2>
           <p className="mb-4"> Sunny is a Licensed Psychoeducational Specialist and Nationally Certified School Psychologist with an Education Specialist degree in School Psychology. Before co-founding Greenville Learning Collective with Jacie, she spent eight years working in public schools, supporting students with a wide range of developmental and learning needs.</p>
           <p className="mb-4">Originally from Florida, Sunny began her career as a preschool teacher, an experience that sparked her lasting passion for early childhood development and continues to shape her work with families today.

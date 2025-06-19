@@ -24,10 +24,10 @@ export default function Team() {
           src={group}
           alt="Sunny Biggers and Jacie Currie, cofounders of Greenville Learning Collective"
           className="mb-8 lg:hidden rounded-2xl"></Image>
-        <h1 className="text-3xl md:text-5xl pb-8">Helping every voice be heard</h1>
+        <h1 className="text-3xl md:text-5xl pb-8">Empowering authentic communication for all</h1>
         <p className="mb-6 text-lg">At Greenville Learning Collective, we believe that meaningful change begins with connection. Our team is united by a passion for helping individuals of all ages navigate communication, learning, and developmental challenges with confidence and joy.</p>
 
-        <p className="mb-6 text-lg">We bring deep expertise, a personalized approach, and heartfelt dedication to every client we serve. Here, your journey is supported, your goals are championed, and your potential is celebrated every step of the way.</p>
+        <p className="mb-6 text-lg">We bring clinical expertise, a personalized approach, and heartfelt dedication to every client we serve. Here, your journey is supported, your goals are championed, and your potential is celebrated every step of the way.</p>
 
         <p className="mb-6 text-lg">Meet the people behind GLC — and discover the heart of what we do.</p>
         <Button

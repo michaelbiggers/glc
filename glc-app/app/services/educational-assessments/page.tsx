@@ -15,13 +15,13 @@ export default function Assessments() {
         backgroundImage={bg}
         position="start">
         <h1 className="text-3xl md:text-5xl mb-4 font-bold">Educational Assessments and Diagnostic Services</h1>
-        <p className="mb-6 text-lg">At GLC, we’re here to help you or your child better understand how you learn, communicate, and grow. We offer comprehensive assessments, expert diagnoses, and personalized therapy to support individuals with a variety of developmental, educational, and cognitive needs.</p>
+        <p className="mb-6 text-lg">At GLC, we’re here to help you or your child better understand how you learn, communicate, and grow. We offer comprehensive assessments and expert diagnoses to support individuals with a variety of developmental, educational, and cognitive needs.</p>
         <Button href="#areas-we-support" text="Learn More"></Button>
       </HeroSplit>
       <div className="bg-white">
         <div className="px-12 py-24 max-w-6xl m-auto">
           <h2 className="text-2xl md:text-5xl mb-4 text-center max-w-2xl m-auto">Clarity, Understanding, and Support for Every Journey</h2>
-          <p className="mb-4 text-lg md:text-center">Our evaluations are designed to provide clear answers, compassionate guidance, and practical next steps for you and your family. Whether you’re seeking an evaluation, a formal diagnosis, or ongoing therapy support, we are here to walk alongside you at every stage.</p>
+          <p className="mb-4 text-lg md:text-center">Our evaluations are designed to provide clear answers, compassionate guidance, and practical next steps for you and your family. Whether you’re seeking a screening, an evaluation, or a formal diagnosis, we are here to walk alongside you at every stage.</p>
           <p className="mb-6 text-lg md:text-center">We serve clients of all ages, from early childhood through adulthood.</p>
 
         </div>
@@ -35,19 +35,23 @@ export default function Assessments() {
             <li>Academic achievement testing</li>
             <li>Cognitive and learning profiles</li>
             <li>Social, emotional, and behavioral screenings</li>
+            <li>Kindergarten readiness testing</li>
           </ul>
-          <h3 className="text-xl md:text-3xl mb-2">Diagnostic Evaluations:</h3>
+          <h3 className="text-xl md:text-3xl mb-2">We can diagnose:</h3>
           <ul className="list-disc ps-8 mb-8">
-            <li>Autism Spectrum Disorder (ASD) evaluations</li>
-            <li>ADHD evaluations</li>
-            <li>Learning disability diagnoses (e.g., dyslexia, dysgraphia)</li>
+            <li>Autism Spectrum Disorder (ASD)</li>
+            <li>ADHD</li>
+            <li>Learning disabilities (e.g. dyslexia, dysgraphia, dyscalculia)</li>
+            <li>Developmental delays</li>
+            <li>Mental health concerns (e.g. anxiety, depression, OCD)</li>
+            <li>Intellectual Disability</li>
           </ul>
-          <h3 className="text-xl md:text-3xl mb-2">Therapy and Support Services:</h3>
+          <h3 className="text-xl md:text-3xl mb-2">Support Services:</h3>
           <ul className="list-disc ps-8">
-            <li>Therapy and intervention planning for diagnosed learning differences</li>
-            <li>Support for executive functioning challenges</li>
-            <li>Counseling and parent/caregiver coaching following diagnosis</li>
-            <li>Collaborative goal-setting and educational planning</li>
+            <li>Results and recommendations reviewed with parents</li>
+            <li>Results shared in a child-friendly format when needed</li>
+            <li>Support in school-based meetings (e.g., IEP, 504)</li>
+            <li>Referrals to resources</li>
           </ul>
         </div>
         <div className="md:basis-1/3 mb-12">
@@ -57,8 +61,8 @@ export default function Assessments() {
             </div>
             <h2 className="text-2xl font-bold text-center">What to Expect</h2>
             <p className="text-lg mb-2"><strong>Assessment sessions</strong> are tailored to the needs of each individual and typically occur over multiple appointments.</p>
-            <p className="text-lg mb-2"><strong>Comprehensive feedback sessions</strong> ensure you fully understand the evaluation results and have a clear plan for next steps.</p>
-            <p className="text-lg mb-2"><strong>Therapy and follow-up services</strong> are customized to support your personal goals and growth.</p>
+            <p className="text-lg mb-2"><strong>Feedback sessions</strong> are conveniently held via telehealth to ensure you fully understand the evaluation results and have a clear plan for next steps.</p>
+            <p className="text-lg mb-2">You’ll get a <strong>comprehensive report</strong> with all of your child’s scores, any relevant diagnoses, and tailored recommendations</p>
           </TextBlob>
         </div>
       </div >

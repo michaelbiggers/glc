@@ -38,6 +38,26 @@ const Testimonials = () => {
           <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“Sunny was wonderful with our son. She made us feel comfortable during the evaluation, and she was kind and comforting at our follow-up when we were given a diagnosis. That was one of the hardest days of our lives, but I’ll never forget her compassion. ”</blockquote>
           <span className={styles.attribution}>- Bridget, Client Parent</span>
         </SwiperSlide>
+        <SwiperSlide>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“Great experience working with GLC to get my 4 year old son tested for Autism. The evaluation went well and the results we received were very detailed and organized. We were able to use my sons testing results to receive permanent services from the SC Department of Disability and Special Needs after initially receiving a denial. Thank you for all your help, I would definitely recommend GLC to all parents.”</blockquote>
+          <span className={styles.attribution}>- Tiara, Client Parent</span>
+        </SwiperSlide>
+        <SwiperSlide>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“Sunny was wonderful to work with. My daughter actually enjoyed their time together for her evaluation. Her report was thorough and she gave us recommendations for next steps.”</blockquote>
+          <span className={styles.attribution}>- Leslie, Client Parent</span>
+        </SwiperSlide>
+        <SwiperSlide>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“We absolutely love Greenville Learning Collective. Jacie is amazing, she’s so friendly, knowledgeable, and really knows how to connect with kids.<br />
+
+            She makes therapy fun, which keeps my son engaged and excited to go each week. We’ve seen real progress and feel supported every step of the way. Jacie always takes the time to explain things, answer questions, and celebrate every little win with us.<br />
+
+            If you're looking for a place that truly cares and delivers results, this is it. We’re so grateful to have found Jacie.”</blockquote>
+          <span className={styles.attribution}>- Lorena, Client Parent</span>
+        </SwiperSlide>
+        <SwiperSlide>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“We had a fantastic experience with GLC! Sunny was patient and attentive to both our child and myself and my husband throughout the evaluation. She did a comprehensive assessment -- in-person time, background and history, and making note of all the random details I provided. When we had our review meeting to discuss the results, she was incredibly helpful in explaining the why, validating the things I'd seen that others had dismissed, and validating that I hadn't biased the results. I appreciate her insight and knowledge so much.”</blockquote>
+          <span className={styles.attribution}>- Katie, Client Parent</span>
+        </SwiperSlide>
         <style jsx>{`
             :global(.swiper-pagination-bullet) {
               width: 12px !important;
