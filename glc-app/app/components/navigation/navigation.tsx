@@ -58,6 +58,9 @@ export const Navigation = () => {
             <NavigationItem
               text="Pricing"
               url="/pricing" />
+              <NavigationItem
+              text="For Providers"
+              url="/for-providers" />
           </div>
           {/* nav footer */}
           <div className="flex flex-col">
