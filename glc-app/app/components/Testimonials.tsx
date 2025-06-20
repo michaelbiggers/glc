@@ -35,7 +35,7 @@ const Testimonials = () => {
           <span className={styles.attribution}>- Amanda, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>
-          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“Sunny was wonderful with our son. She made us feel comfortable during the evaluation, and she was kind and comforting at our follow-up when we were given a diagnosis. That was one of the hardest days of our lives, but I’ll never forget her compassion. ”</blockquote>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“Sunny was wonderful with our son. She made us feel comfortable during the evaluation, and she was kind and comforting at our follow-up when we were given a diagnosis. That was one of the hardest days of our lives, but I&apos;ll never forget her compassion. ”</blockquote>
           <span className={styles.attribution}>- Bridget, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>
@@ -47,11 +47,11 @@ const Testimonials = () => {
           <span className={styles.attribution}>- Leslie, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>
-          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“We absolutely love Greenville Learning Collective. Jacie is amazing, she’s so friendly, knowledgeable, and really knows how to connect with kids.<br />
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“We absolutely love Greenville Learning Collective. Jacie is amazing, she&apos;s so friendly, knowledgeable, and really knows how to connect with kids.<br />
 
-            She makes therapy fun, which keeps my son engaged and excited to go each week. We’ve seen real progress and feel supported every step of the way. Jacie always takes the time to explain things, answer questions, and celebrate every little win with us.<br />
+            She makes therapy fun, which keeps my son engaged and excited to go each week. We&apos;ve seen real progress and feel supported every step of the way. Jacie always takes the time to explain things, answer questions, and celebrate every little win with us.<br />
 
-            If you're looking for a place that truly cares and delivers results, this is it. We’re so grateful to have found Jacie.”</blockquote>
+            If you're looking for a place that truly cares and delivers results, this is it. We&apos;re so grateful to have found Jacie.”</blockquote>
           <span className={styles.attribution}>- Lorena, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>
