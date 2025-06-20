@@ -14,7 +14,7 @@ export default function Home() {
       <Navigation />
       <Hero backgroundImage="/hero.jpg">
         <h1 className="text-3xl md:text-5xl pb-8">Personalized support. <br />Meaningful progress.</h1>
-        <p className="mb-6 text-lg">At GLC, we help you or your loved one overcome communication and learning challenges with confidence through personalized care and tailored treatment plans.</p>
+        <p className="mb-6 text-lg">At GLC, we support you or your loved one in building on communication and learning strengths through personalized, respectful care and collaborative, individualized support plans.</p>
         <Button
           text="What We Do"
           color="orange"
