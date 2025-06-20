@@ -52,11 +52,11 @@ const Testimonials = () => {
 
             She makes therapy fun, which keeps my son engaged and excited to go each week. We&apos;ve seen real progress and feel supported every step of the way. Jacie always takes the time to explain things, answer questions, and celebrate every little win with us.<br />
 
-            If you're looking for a place that truly cares and delivers results, this is it. We&apos;re so grateful to have found Jacie.”</blockquote>
+            If you&apos;re looking for a place that truly cares and delivers results, this is it. We&apos;re so grateful to have found Jacie.”</blockquote>
           <span className={styles.attribution}>- Lorena, Client Parent</span>
         </SwiperSlide>
         <SwiperSlide>
-          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“We had a fantastic experience with GLC! Sunny was patient and attentive to both our child and myself and my husband throughout the evaluation. She did a comprehensive assessment -- in-person time, background and history, and making note of all the random details I provided. When we had our review meeting to discuss the results, she was incredibly helpful in explaining the why, validating the things I'd seen that others had dismissed, and validating that I hadn't biased the results. I appreciate her insight and knowledge so much.”</blockquote>
+          <blockquote className={`text-xl md:text-4xl ${styles.testimonial}`}>“We had a fantastic experience with GLC! Sunny was patient and attentive to both our child and myself and my husband throughout the evaluation. She did a comprehensive assessment -- in-person time, background and history, and making note of all the random details I provided. When we had our review meeting to discuss the results, she was incredibly helpful in explaining the why, validating the things I&apos;d seen that others had dismissed, and validating that I hadn&apos;t biased the results. I appreciate her insight and knowledge so much.”</blockquote>
           <span className={styles.attribution}>- Katie, Client Parent</span>
         </SwiperSlide>
         <style jsx>{`
