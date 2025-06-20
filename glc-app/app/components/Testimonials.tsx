@@ -19,6 +19,7 @@ const Testimonials = () => {
           delay: 3500,
           disableOnInteraction: true,
         }}
+        autoHeight={true}
         loop={true}
         pagination={{
           clickable: true,
