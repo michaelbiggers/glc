@@ -1,4 +1,4 @@
-'use client'
+import { Metadata } from "next";
 import { AppointmentButton } from "@/app/components/SimplePractice";
 import { Navigation } from "../../components/navigation/navigation";
 
@@ -17,7 +17,7 @@ export default function Sunny() {
         </div>
 
         <div className="content md:basis-2/3 flex flex-col align-center p-4 md:p-8">
-          <h1 className="text-3xl mb-4">Sunny Biggers <span className = "text-lg">(she/her)</span></h1>
+          <h1 className="text-3xl mb-4">Sunny Biggers <span className="text-lg">(she/her)</span></h1>
           <h2 className="text-xl font-bold mb-4">Co-Founder / Psychoeducational Specialist</h2>
           <p className="mb-4"> Sunny is a Licensed Psychoeducational Specialist and Nationally Certified School Psychologist with an Education Specialist degree in School Psychology. Before co-founding Greenville Learning Collective with Jacie, she spent eight years working in public schools, supporting students with a wide range of developmental and learning needs.</p>
           <p className="mb-4">Originally from Florida, Sunny began her career as a preschool teacher, an experience that sparked her lasting passion for early childhood development and continues to shape her work with families today.
@@ -26,12 +26,41 @@ export default function Sunny() {
           <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
         </div>
       </div>
-
-     
-
-
-
     </>
-
   );
 }
+export const metadata: Metadata = {
+  title: 'Sunny Biggers, Psychoeducational Specialist | Greenville Learning Collective',
+  description:
+    'Meet Sunny Biggers, Licensed Psychoeducational Specialist and Co-Founder of GLC. Specializing in autism and dyslexia evaluations with compassionate, family-focused care.',
+  keywords: [
+    'Sunny Biggers GLC',
+    'Psychoeducational Specialist Greenville',
+    'autism evaluations SC',
+    'dyslexia diagnosis Greenville',
+    'school psychologist South Carolina',
+    'developmental assessments for kids',
+  ],
+  openGraph: {
+    title: 'Sunny Biggers, Psychoeducational Specialist | Greenville Learning Collective',
+    description:
+      'Learn about Sunny Biggers, co-founder of GLC and expert in developmental and learning evaluations for children and families across South Carolina.',
+    url: 'https://greenvillelearningcollective.com/about-us/sunny',
+    type: 'profile',
+    images: [
+      {
+        url: 'https://greenvillelearningcollective.com/public/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'GLC logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sunny Biggers, Psychoeducational Specialist | Greenville Learning Collective',
+    description:
+      'Licensed Psychoeducational Specialist and School Psychologist offering personalized evaluations and family-centered support at GLC.',
+    images: ['https://greenvillelearningcollective.com/public/logo.svg'],
+  },
+};

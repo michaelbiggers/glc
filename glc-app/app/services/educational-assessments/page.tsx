@@ -1,4 +1,4 @@
-'use client';
+import { Metadata } from "next";
 import { Navigation } from "@/app/components/navigation/navigation";
 import HeroSplit from "@/app/components/Hero/HeroSplit";
 import { Button } from "@/app/components/Button";
@@ -78,3 +78,39 @@ export default function Assessments() {
 
   );
 }
+export const metadata: Metadata = {
+  title: 'Educational Assessments & Diagnoses | Greenville Learning Collective',
+  description:
+    'Comprehensive psychoeducational assessments and diagnostic services for autism, ADHD, learning disabilities, and mental health—serving children through adults in Greenville, SC.',
+  keywords: [
+    'autism diagnosis Greenville SC',
+    'psychoeducational evaluation',
+    'ADHD testing for kids and adults',
+    'dyslexia assessments',
+    'learning disability diagnosis',
+    'cognitive testing Greenville',
+    'IEP support evaluations',
+  ],
+  openGraph: {
+    title: 'Educational Assessments & Diagnoses | Greenville Learning Collective',
+    description:
+      'Expert evaluations for autism, ADHD, learning differences, and emotional-behavioral needs. Personalized feedback, reports, and school support included.',
+    url: 'https://greenvillelearningcollective.com/services/educational-assessments',
+    type: 'website',
+    images: [
+      {
+        url: 'https://greenvillelearningcollective.com/public/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'GLC logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Educational Assessments & Diagnoses | Greenville Learning Collective',
+    description:
+      'Get clear answers and support with personalized evaluations for autism, ADHD, learning disabilities, and more in Greenville, SC.',
+    images: ['https://greenvillelearningcollective.com/public/logo.svg'],
+  },
+};

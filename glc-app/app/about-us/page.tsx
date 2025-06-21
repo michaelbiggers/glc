@@ -1,4 +1,5 @@
 'use-client'
+import { Metadata } from "next";
 import { Navigation } from "../components/navigation/navigation";
 import { Button } from "../components/Button";
 import group from "@/public/group_bw.jpeg";
@@ -57,12 +58,12 @@ export default function Team() {
       </div>
       <TextBlob
         color="green"
-        fullWidth = {false}>
+        fullWidth={false}>
         <div className="w-sm text-center">
           <h3 className="text-xl  font-bold mb-2 text-white uppercase">Our Mission</h3>
           <p className="text-4xl font-normal  text-white mb-4">At GLC, we believe every journey is unique and worth celebrating.</p>
           <p className="text-xl font-normal mb-6 text-white">Our mission is to build strong connections, nurture confidence and independence, and create space for joy in every moment — walking hand in hand with our clients and their families every step of the way.</p>
-          <AppointmentButton text = "Schedule a Free Consultation" useButtonStyles></AppointmentButton>
+          <AppointmentButton text="Schedule a Free Consultation" useButtonStyles></AppointmentButton>
 
         </div>
       </TextBlob>
@@ -70,3 +71,39 @@ export default function Team() {
 
   );
 }
+export const metadata: Metadata = {
+  title: 'About Us | Greenville Learning Collective',
+  description:
+    'Meet the team at GLC — a compassionate group of professionals committed to empowering authentic communication and confident learning at every stage of life.',
+  keywords: [
+    'Greenville Learning Collective team',
+    'speech therapy experts Greenville SC',
+    'about GLC',
+    'Sunny Biggers',
+    'Jacie Curry',
+    'speech-language pathologists Greenville',
+    'developmental evaluations team',
+  ],
+  openGraph: {
+    title: 'About Us | Greenville Learning Collective',
+    description:
+      'Learn about GLC’s mission and meet the professionals who support communication, learning, and joy for individuals and families across South Carolina.',
+    url: 'https://greenvillelearningcollective.com/about-us',
+    type: 'website',
+    images: [
+      {
+        url: 'https://greenvillelearningcollective.com/public/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'GLC logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us | Greenville Learning Collective',
+    description:
+      'Discover the heart of GLC and meet the dedicated team supporting individuals across ages with expert evaluations and therapy.',
+    images: ['https://greenvillelearningcollective.com/public/logo.svg'],
+  },
+};
