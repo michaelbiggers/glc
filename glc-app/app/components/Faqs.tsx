@@ -1,5 +1,5 @@
 import Faq from "./Faq";
-
+import Link from "next/link";
 const Faqs = () => {
   return (
     <div className="faqs flex flex-wrap py-24 lg:py-36  lg:px-24" >
@@ -19,13 +19,12 @@ const Faqs = () => {
           content="We can typically schedule a consultation right away. Wait times vary depending on what type of evaluation is needed." />
         <Faq
           title="Do I need a doctor’s referral? "
-          content="Yes. If you are seeking an evaluation or therapy using any form of insurance a physician's referral is needed.  A prior authorization for service may also be required.
-	If you are a private-pay client, no referral is necessary. " />
+          content="Yes. If you are seeking an evaluation or therapy using any form of insurance a physician's referral is needed. A prior authorization for service may also be required. If you are a private-pay client, no referral is necessary. " />
         <Faq
-          title="Does my child need an evaluation and / or therapy ?"
-          content="After speaking with one of our clinician’s we will advise you on the necessity of an evaluation and how long the process will take.After your child is evaluated we will write a report with recommendations.A virtual or in -person meeting will be scheduled to review the evaluation results and recommendations. " />
+          title="Does my child need an evaluation and/or therapy?"
+          content="After speaking with one of our clinician’s we will advise you on the necessity of an evaluation and how long the process will take. After your child is evaluated we will write a report with recommendations. A virtual or in-person meeting will be scheduled to review the evaluation results and recommendations. " />
         <Faq
-          title="What if I already have an evaluation from another provider ?"
+          title="What if I already have an evaluation from another provider?"
           content="We will review any recent evaluation completed within the past 6 months and determine if an updated evaluation is warranted." />
       </div>
     </div>
