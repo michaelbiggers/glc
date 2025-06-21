@@ -1,4 +1,3 @@
-'use client';
 import { Metadata } from "next";
 import { Navigation } from "@/app/components/navigation/navigation";
 import HeroSplit from "@/app/components/Hero/HeroSplit";

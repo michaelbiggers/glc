@@ -1,4 +1,3 @@
-'use client';
 import { Metadata } from "next";
 import { Button } from "./components/Button";
 import { Navigation } from "./components/navigation/navigation";

@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Footer from "./footer";
 import "./globals.css";

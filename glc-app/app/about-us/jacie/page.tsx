@@ -1,4 +1,3 @@
-'use client'
 import { Metadata } from "next";
 import { Navigation } from "../../components/navigation/navigation";
 import { AppointmentButton } from "@/app/components/SimplePractice";
