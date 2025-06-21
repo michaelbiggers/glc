@@ -1,4 +1,5 @@
 'use client';
+import { Metadata } from "next";
 import { Navigation } from "@/app/components/navigation/navigation";
 import HeroSplit from "@/app/components/Hero/HeroSplit";
 import { Button } from "@/app/components/Button";
@@ -62,3 +63,40 @@ export default function Speech() {
 
   );
 }
+export const metadata: Metadata = {
+  title: 'Speech-Language Therapy | Greenville Learning Collective',
+  description:
+    'Personalized speech-language therapy in Greenville, SC. GLC offers expert support for speech clarity, language delays, fluency, AAC, and literacy skills for all ages.',
+  keywords: [
+    'speech therapy Greenville SC',
+    'language delay support',
+    'child speech therapist',
+    'AAC therapy',
+    'dyslexia evaluation',
+    'Greer speech-language pathologist',
+    'fluency disorder therapy',
+    'communication support for kids and adults',
+  ],
+  openGraph: {
+    title: 'Speech-Language Therapy | Greenville Learning Collective',
+    description:
+      'Build confidence and communication skills with expert speech-language therapy. Serving children and adults with tailored evaluations and treatment plans.',
+    url: 'https://greenvillelearningcollective.com/services/speech-language-therapy',
+    type: 'website',
+    images: [
+      {
+        url: 'https://greenvillelearningcollective.com/public/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Speech therapy session at GLC',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Speech-Language Therapy | Greenville Learning Collective',
+    description:
+      'Speech-language therapy designed for growth at every stage. GLC supports speech clarity, social communication, fluency, and more.',
+    images: ['https://greenvillelearningcollective.com/public/logo.svg'],
+  },
+};

@@ -1,4 +1,5 @@
 'use client'
+import { Metadata } from "next";
 import { Navigation } from "../../components/navigation/navigation";
 import { AppointmentButton } from "@/app/components/SimplePractice";
 
@@ -25,9 +26,43 @@ export default function Jacie() {
           <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
         </div>
       </div>
-
-
     </>
 
   );
 }
+export const metadata: Metadata = {
+  title: 'Jacie Curry, Speech-Language Pathologist | Greenville Learning Collective',
+  description:
+    'Meet Jacie Curry, co-founder of GLC and licensed speech-language pathologist. Specializing in AAC, autism, language disorders, and empowering communication for all ages.',
+  keywords: [
+    'Jacie Curry GLC',
+    'speech therapist Greenville SC',
+    'AAC specialist SC',
+    'autism communication support',
+    'ASHA certified SLP',
+    'language delays in children',
+    'speech-language therapy South Carolina',
+  ],
+  openGraph: {
+    title: 'Jacie Curry, Speech-Language Pathologist | Greenville Learning Collective',
+    description:
+      'Learn about Jacie Curry, CCC-SLP and co-founder of GLC, who brings 15+ years of experience in speech-language therapy with a strengths-based, compassionate approach.',
+    url: 'https://greenvillelearningcollective.com/about-us/jacie',
+    type: 'profile',
+    images: [
+      {
+        url: 'https://greenvillelearningcollective.com/public/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'GLC logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jacie Curry, Speech-Language Pathologist | Greenville Learning Collective',
+    description:
+      'Specializing in speech-language therapy, AAC, and neurodiversity-affirming care, Jacie Curry supports individuals and families in finding authentic connection.',
+    images: ['https://greenvillelearningcollective.com/public/logo.svg'],
+  },
+};

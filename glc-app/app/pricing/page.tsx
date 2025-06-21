@@ -1,4 +1,5 @@
 import { Navigation } from "../components/navigation/navigation";
+import { Metadata } from "next";
 export default function Pricing() {
   return (
     <>
@@ -36,3 +37,39 @@ export default function Pricing() {
 
   );
 }
+export const metadata: Metadata = {
+  title: 'Pricing & Insurance | Greenville Learning Collective',
+  description:
+    'Explore GLC’s transparent pricing for evaluations and therapy, and view accepted insurance plans including Medicaid, Select Health, Molina, BabyNet, and more.',
+  keywords: [
+    'GLC pricing',
+    'speech therapy cost Greenville SC',
+    'autism evaluation pricing',
+    'insurance for developmental assessments',
+    'Medicaid speech therapy SC',
+    'BabyNet evaluations',
+    'self-pay therapy South Carolina',
+  ],
+  openGraph: {
+    title: 'Pricing & Insurance | Greenville Learning Collective',
+    description:
+      'Find detailed pricing for therapy and evaluations, and see which insurance plans are accepted at GLC. We support both Medicaid and self-pay clients.',
+    url: 'https://greenvillelearningcollective.com/pricing',
+    type: 'website',
+    images: [
+      {
+        url: 'https://greenvillelearningcollective.com/public/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'GLC logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pricing & Insurance | Greenville Learning Collective',
+    description:
+      'GLC accepts multiple Medicaid providers and offers flexible pricing for speech therapy and developmental evaluations. See what works for your family.',
+    images: ['https://greenvillelearningcollective.com/public/logo.svg'],
+  },
+};
