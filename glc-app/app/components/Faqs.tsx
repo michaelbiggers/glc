@@ -11,8 +11,9 @@ const Faqs = () => {
           title="What is the process to get started? What can I expect?"
           content="Call us at 864-451-2563 to discuss any questions or concerns you may have. You can also book a free consultation appointment online. Just click the Request Appointment button to see current availability. " />
         <Faq
-          title="Do you accept insurance?"
-          content="We currently accept traditional Healthy Connections Medicaid Fee For Service (FFS), Molina Medicaid, Select Health (First Choice) Medicaid. We also offer self-pay options. Please check back for additional insurance options. " />
+          title="Do you accept insurance?">
+          We accept a range of insurance providers, as well as self-pay options. Please check our <Link href = '/pricing' style={{textDecoration: 'underline'}}>insurance page</Link> for an up-to-date list of providers.
+        </Faq>
         <Faq
           title="How long will it take to get an appointment? "
           content="We can typically schedule a consultation right away. Wait times vary depending on what type of evaluation is needed." />
