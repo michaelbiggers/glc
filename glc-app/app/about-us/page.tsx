@@ -62,7 +62,8 @@ export default function Team() {
       </div>
       <TextBlob
         color="green"
-        fullWidth={false}>
+        fullWidth={false}
+        classNames="mb-12">
         <div className="w-sm text-center">
           <h3 className="text-xl  font-bold mb-2 text-white uppercase">Our Mission</h3>
           <p className="text-4xl font-normal  text-white mb-4">At GLC, we believe every journey is unique and worth celebrating.</p>
