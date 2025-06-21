@@ -1,5 +1,5 @@
-'use-client'
 import { Metadata } from "next";
+import Link from "next/link";
 import { Navigation } from "../components/navigation/navigation";
 import { Button } from "../components/Button";
 import group from "@/public/group_bw.jpeg";
@@ -41,13 +41,17 @@ export default function Team() {
         <div className="flex flex-col md:flex-row justify-center gap-24">
           <div className="text-center">
             <div className="w-full h-[400px] md:w-[300px] md:h-[350px] lg:w-[400px] lg:h-[500px] rounded-2xl sm:rounded-[20%] overflow-hidden mb-4 mx-auto">
-              <Image src={sunny} alt="" className="object-cover w-full h-full"></Image>
+              <Link href="/about-us/sunny">
+                <Image src={sunny} alt="" className="object-cover w-full h-full"></Image>
+              </Link>
             </div>
             <Button text="Meet Sunny" href="/about-us/sunny"></Button>
           </div>
           <div className="text-center">
             <div className="w-full h-[400px] md:w-[300px] md:h-[350px] lg:w-[400px] lg:h-[500px] rounded-2xl sm:rounded-[20%] overflow-hidden mb-4 mx-auto">
-              <Image src={jacie} alt="" className="object-cover w-full h-full"></Image>
+              <Link href='/about-us/jacie'>
+                <Image src={jacie} alt="" className="object-cover w-full h-full"></Image>
+              </Link>
             </div>
 
             <Button text="Meet Jacie" href="/about-us/jacie"></Button>
