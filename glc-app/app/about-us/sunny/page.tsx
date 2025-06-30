@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { AppointmentButton } from "@/app/components/SimplePractice";
 import { Navigation } from "../../components/navigation/navigation";
-
+import ncsp from "@/public/ncsp.png"
 import sunny from "@/public/sunny.jpg";
 import Image from "next/image";
 
@@ -19,10 +19,12 @@ export default function Sunny() {
         <div className="content md:basis-2/3 flex flex-col align-center p-4 md:p-8">
           <h1 className="text-3xl mb-4">Sunny Biggers <span className="text-lg">(she/her)</span></h1>
           <h2 className="text-xl font-bold mb-4">Co-Founder / Psychoeducational Specialist</h2>
+
           <p className="mb-4"> Sunny is a Licensed Psychoeducational Specialist and Nationally Certified School Psychologist with an Education Specialist degree in School Psychology. Before co-founding Greenville Learning Collective with Jacie, she spent eight years working in public schools, supporting students with a wide range of developmental and learning needs.</p>
           <p className="mb-4">Originally from Florida, Sunny began her career as a preschool teacher, an experience that sparked her lasting passion for early childhood development and continues to shape her work with families today.
           </p>
           <p className="mb-4">Sunny is highly trained in diagnosing a variety of developmental and learning differences, with a specialty in evaluations for autism and dyslexia. She believes that families deserve more than just a diagnosis — they deserve clear, compassionate feedback and practical next steps. Sunny works closely with parents to ensure they fully understand the evaluation results and feel confident in how to best support their child moving forward.</p>
+          <Image src={ncsp} alt="Nationally Certified School Psychologist" className='max-w-sm w-36 mb-8'></Image>
           <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
         </div>
       </div>
