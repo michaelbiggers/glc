@@ -2,7 +2,6 @@
 import { TextBlob } from './TextBlob';
 import { Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Swiper as SwiperType } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
@@ -13,8 +12,6 @@ const Testimonials = () => {
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper: SwiperType) => console.log(swiper)}
         autoplay={{
           delay: 3500,
           disableOnInteraction: true,
