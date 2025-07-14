@@ -18,8 +18,7 @@ export const Navigation = () => {
     setIsOpen(!isOpen)
   }
   const sendLoginEvent = () => {
-    sendGAEvent({
-      event: 'login',
+    sendGAEvent('event', 'login', {
       method: 'SimplePractice'
     });
   }

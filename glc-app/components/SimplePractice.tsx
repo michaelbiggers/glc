@@ -11,8 +11,7 @@ type ScheduleProps = {
 };
 export const AppointmentButton = ({ text, color = 'orange', useButtonStyles = false, classNames = '', wrapperClassNames = '', lead_source }: ScheduleProps) => {
   const handleButtonClick = () => {
-    sendGAEvent({
-      event: 'generate_lead',
+    sendGAEvent('event', 'generate_lead', {
       value: 1,
       lead_source: lead_source,
     });
