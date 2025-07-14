@@ -1,12 +1,12 @@
 import { Metadata } from "next";
-import { Button } from "./components/Button";
-import { Navigation } from "./components/navigation/navigation";
-import Hero from "./components/Hero/Hero";
-import Callout from "./components/Callout";
-import TeamSection from "./components/TeamSection";
-import Demographic from "./components/Demographic";
-import Testimonials from "./components/Testimonials";
-import Faqs from "./components/Faqs";
+import { Button } from "../components/Button";
+import { Navigation } from "../components/navigation/navigation";
+import Hero from "../components/Hero/Hero";
+import Callout from "../components/Callout";
+import TeamSection from "../components/TeamSection";
+import Demographic from "../components/Demographic";
+import Testimonials from "../components/Testimonials";
+import Faqs from "../components/Faqs";
 export const metadata: Metadata = {
   title: 'Greenville Learning Collective | Evaluations & Therapy for Autism, ADHD & Learning Differences',
   description:

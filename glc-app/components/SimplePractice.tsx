@@ -1,13 +1,22 @@
 'use client'
 import { useEffect } from 'react';
+import { sendGAEvent } from '@next/third-parties/google';
 type ScheduleProps = {
   text: string;
   classNames?: string;
   useButtonStyles?: boolean;
   color?: 'yellow' | 'orange' | 'green';
   wrapperClassNames?: string;
+  lead_source: 'Menu' | 'Jacie bio' | 'Sunny bio' | 'About Us callout' | 'Speech-language' | 'Educational Assessments'
 };
-export const AppointmentButton = ({ text, color = 'orange', useButtonStyles = false, classNames = '', wrapperClassNames = '' }: ScheduleProps) => {
+export const AppointmentButton = ({ text, color = 'orange', useButtonStyles = false, classNames = '', wrapperClassNames = '', lead_source }: ScheduleProps) => {
+  const handleButtonClick = () => {
+    sendGAEvent({
+      event: 'generate_lead',
+      value: 1,
+      lead_source: lead_source,
+    });
+  }
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://widget-cdn.simplepractice.com/assets/integration-1.0.js';
@@ -35,6 +44,7 @@ export const AppointmentButton = ({ text, color = 'orange', useButtonStyles = fa
             data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b"
             data-spwidget-scope-global
             data-spwidget-autobind
+            onClick={handleButtonClick}
           >
             <span className={`absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 ${variants[color]} group-hover:-translate-x-0 group-hover:-translate-y-0`}></span>
             <span className={`absolute inset-0 w-full h-full bg-[#fffaf6] transition duration-200 border-2 border-black group-hover:bg-[#d14d22]`}></span>
@@ -55,6 +65,7 @@ export const AppointmentButton = ({ text, color = 'orange', useButtonStyles = fa
           data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b"
           data-spwidget-scope-global
           data-spwidget-autobind
+          onClick={handleButtonClick}
         >
           {text}
         </a>

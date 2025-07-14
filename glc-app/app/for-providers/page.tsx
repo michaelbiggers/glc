@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Navigation } from "../components/navigation/navigation";
+import { Navigation } from "../../components/navigation/navigation";
 
 export default function Contact() {
   return (

@@ -1,11 +1,11 @@
 import { Metadata } from "next";
-import { Navigation } from "@/app/components/navigation/navigation";
-import HeroSplit from "@/app/components/Hero/HeroSplit";
-import { Button } from "@/app/components/Button";
-import { AppointmentButton } from "@/app/components/SimplePractice";
+import { Navigation } from "@/components/navigation/navigation";
+import HeroSplit from "@/components/Hero/HeroSplit";
+import { Button } from "@/components/Button";
+import { AppointmentButton } from "@/components/SimplePractice";
 import bg from "@/public/speech.jpg";
 import bird from "@/public/bird-logo.svg";
-import { TextBlob } from "@/app/components/TextBlob";
+import { TextBlob } from "@/components/TextBlob";
 import Image from "next/image";
 export default function Speech() {
   return (
@@ -55,7 +55,7 @@ export default function Speech() {
           <h3 className="text-3xl md:text-5xl font-bold mb-1">Let’s Get Started</h3>
           <p className="text-2xl md:text-3xl mb-4">We’re here to support you — every step of the way. <br></br>Reach out today!</p>
 
-          <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
+          <AppointmentButton text="Schedule a Consultation" useButtonStyles lead_source="Speech-language"></AppointmentButton>
         </div>
       </TextBlob>
     </>

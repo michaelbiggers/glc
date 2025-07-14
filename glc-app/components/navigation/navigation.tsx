@@ -10,11 +10,18 @@ import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import 'react-modern-drawer/dist/index.css';
 import { AppointmentButton } from '../SimplePractice';
+import { sendGAEvent } from '@next/third-parties/google';
 const Drawer = dynamic(() => import('react-modern-drawer'), { ssr: false });
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false); // <-- moved inside!
   const toggleDrawer = () => {
     setIsOpen(!isOpen)
+  }
+  const sendLoginEvent = () => {
+    sendGAEvent({
+      event: 'login',
+      method: 'SimplePractice'
+    });
   }
   return (
     <>
@@ -58,20 +65,25 @@ export const Navigation = () => {
             <NavigationItem
               text="Pricing"
               url="/pricing" />
-              <NavigationItem
+            <NavigationItem
               text="For Providers"
               url="/for-providers" />
           </div>
           {/* nav footer */}
           <div className="flex flex-col">
-            <Link href="http://greenvillelearningcollective.clientsecure.me/sign-in" target="_self" className="border basis-1/2 p-2 py-8 text-center content-center font-bold" >
+            <Link
+              href="http://greenvillelearningcollective.clientsecure.me/sign-in"
+              target="_self"
+              className="border basis-1/2 p-2 py-8 text-center content-center font-bold"
+              onClick={sendLoginEvent} >
               Sign in
             </Link>
             <AppointmentButton
               text="Request Appointment"
               wrapperClassNames='basis-1/2 text-center bg-[#d14d22] text-white font-bold'
-              classNames='inline-block p-8 h-full w-full ' />
-
+              classNames='inline-block p-8 h-full w-full ' 
+              lead_source= 'Menu'/>
+              
           </div>
         </div>
       </Drawer>

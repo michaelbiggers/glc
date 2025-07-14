@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import { Navigation } from "../../components/navigation/navigation";
-import { AppointmentButton } from "@/app/components/SimplePractice";
+import { Navigation } from "../../../components/navigation/navigation";
+import { AppointmentButton } from "@/components/SimplePractice";
 
 import jacie from "@/public/jacie.jpg";
 import ccc from "@/public/ccc.png";
@@ -24,7 +24,7 @@ export default function Jacie() {
           <p className="mb-2 text-lg">Jacie also has extensive experience in augmentative and alternative communication (AAC), using tools such as American Sign Language, visual supports, and speech-generating devices to create accessible and empowering communication opportunities for everyone.</p>
           <p className="mb-4 text-lg">Through a compassionate, strengths-based approach, Jacie is dedicated to helping each person express themselves and supporting families on their journey toward greater connection and communication.</p>
           <Image src={ccc} alt="ASHA Certified Speech-Language Pathologist" className='w-96 mb-8'></Image>
-          <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
+          <AppointmentButton text="Schedule a Consultation" useButtonStyles lead_source="Jacie bio"></AppointmentButton>
         </div>
       </div>
     </>

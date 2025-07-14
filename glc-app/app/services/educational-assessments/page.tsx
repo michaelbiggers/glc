@@ -1,11 +1,11 @@
 import { Metadata } from "next";
-import { Navigation } from "@/app/components/navigation/navigation";
-import HeroSplit from "@/app/components/Hero/HeroSplit";
-import { Button } from "@/app/components/Button";
-import { AppointmentButton } from "@/app/components/SimplePractice";
+import { Navigation } from "@/components/navigation/navigation";
+import HeroSplit from "@/components/Hero/HeroSplit";
+import { Button } from "@/components/Button";
+import { AppointmentButton } from "@/components/SimplePractice";
 import bg from "@/public/demo_1.jpg";
 import bird from "@/public/bird-logo.svg";
-import { TextBlob } from "@/app/components/TextBlob";
+import { TextBlob } from "@/components/TextBlob";
 import Image from "next/image";
 export default function Assessments() {
   return (
@@ -71,7 +71,7 @@ export default function Assessments() {
           <h3 className="text-3xl md:text-5xl font-bold mb-1">Let’s Get Started</h3>
           <p className="text-2xl md:text-3xl mb-4">We’re here to provide answers, support, and encouragement — every step of the way.<br></br>Reach out today to schedule an assessment or consultation!</p>
 
-          <AppointmentButton text="Schedule a Consultation" useButtonStyles></AppointmentButton>
+          <AppointmentButton text="Schedule a Consultation" useButtonStyles lead_source="Educational Assessments"></AppointmentButton>
         </div>
       </TextBlob>
     </>
