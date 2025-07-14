@@ -68,7 +68,7 @@ export default function Team() {
           <h3 className="text-xl  font-bold mb-2 text-white uppercase">Our Mission</h3>
           <p className="text-4xl font-normal  text-white mb-4">At GLC, we believe every journey is unique and worth celebrating.</p>
           <p className="text-xl font-normal mb-6 text-white">Our mission is to build strong connections, nurture confidence and independence, and create space for joy in every moment — walking hand in hand with our clients and their families every step of the way.</p>
-          <AppointmentButton text="Schedule a Free Consultation" useButtonStyles></AppointmentButton>
+          <AppointmentButton text="Schedule a Free Consultation" useButtonStyles lead_source="About Us callout"></AppointmentButton>
 
         </div>
       </TextBlob>
