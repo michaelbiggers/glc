@@ -1,11 +1,11 @@
 import { Metadata } from "next";
-import { Navigation } from "@/app/components/navigation/navigation";
-import HeroSplit from "@/app/components/Hero/HeroSplit";
-import { Button } from "@/app/components/Button";
-import { AppointmentButton } from "@/app/components/SimplePractice";
+import { Navigation } from "@/components/navigation/navigation";
+import HeroSplit from "@/components/Hero/HeroSplit";
+import { Button } from "@/components/Button";
+import { AppointmentButton } from "@/components/SimplePractice";
 import bg from "@/public/demo_1.jpg";
 import bird from "@/public/bird-logo.svg";
-import { TextBlob } from "@/app/components/TextBlob";
+import { TextBlob } from "@/components/TextBlob";
 import Image from "next/image";
 export default function Assessments() {
   return (

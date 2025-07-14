@@ -1,15 +1,15 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { Navigation } from "../components/navigation/navigation";
-import { Button } from "../components/Button";
+import { Navigation } from "../../components/navigation/navigation";
+import { Button } from "../../components/Button";
 import group from "@/public/group_bw.jpeg";
 import group_wide from "@/public/group_bw_wide-2.jpg";
 import sunny from "@/public/sunny.jpg";
 import jacie from "@/public/jacie.jpg";
 import Image from "next/image";
-import HeroSplit from "../components/Hero/HeroSplit";
-import { TextBlob } from "../components/TextBlob";
-import { AppointmentButton } from "../components/SimplePractice";
+import HeroSplit from "../../components/Hero/HeroSplit";
+import { TextBlob } from "../../components/TextBlob";
+import { AppointmentButton } from "../../components/SimplePractice";
 
 export default function Team() {
   return (

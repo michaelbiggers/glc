@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import { AppointmentButton } from "@/app/components/SimplePractice";
-import { Navigation } from "../../components/navigation/navigation";
+import { AppointmentButton } from "@/components/SimplePractice";
+import { Navigation } from "../../../components/navigation/navigation";
 import ncsp from "@/public/ncsp.png"
 import sunny from "@/public/sunny.jpg";
 import Image from "next/image";

@@ -1,4 +1,4 @@
-import { Navigation } from "../components/navigation/navigation";
+import { Navigation } from "../../components/navigation/navigation";
 import { Metadata } from "next";
 export default function Pricing() {
   return (
